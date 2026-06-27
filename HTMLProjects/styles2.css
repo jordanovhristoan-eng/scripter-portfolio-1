@@ -1,0 +1,29 @@
+.intro{
+    color: red;
+}
+.end{
+    color: blue;
+}
+div p{
+    color: green;
+}
+
+label[for="text"]{
+    color: orange;
+}
+
+input[type="text"]{
+    color: orange;
+}
+
+input[type="submit"]{
+    color: purple;
+}
+
+a[href$=".com"]{
+    color: brown;
+}
+
+p.highlight{
+    color: pink;
+}

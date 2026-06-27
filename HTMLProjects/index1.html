@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Learning Forms
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Learning Forms
+        </h1>
+        
+        <form>
+            <label for="username">Type your username:</label>
+            <input type="text" id = "username" name = "username" placeholder="Username" required>
+
+            <br><br>
+
+            <label for="email">Enter your email:</label>
+            <input type = "email" id = "email" name = "email" placeholder = "Your email" required>
+
+            <br><br>
+
+            <label for="password">Create a password:</label>
+            <input type="password" id = "password" name = "password" placeholder = "Your password" required>
+
+            <br><br>
+
+            <h3>
+                OPTIONAL!
+            </h3>
+
+            <label for="first-option"> under 18</label>
+            <input type="radio" name = "age" value = "under 18" id = "first-option">
+
+            
+            <label for="second-option">18-30</label>
+            <input type="radio" name = "age" value = "18-30" id = "second-option">
+
+
+            <label for="third-option">30+</label>
+            <input type="radio" name = "age" value = "30+" id = "third-option">
+
+            <br><br>
+
+
+            <label for="question"> Questions:</label>
+            <select name="question" id="question">
+                <option value="q1">What is your favorite programming language?</option>
+                <option value="q2">What is your experience level?</option>
+            </select>
+
+            <br><br>
+
+
+            <label for="answer">Your Answer:</label>
+            <input type="text" id = "answer" name = "answer">
+
+            <br><br>
+
+            <p>
+                Explain to us why you want to learn programming:
+            </p>
+
+            <label for="bio"></label>
+            <textarea name="bio" id="bio" cols = "30" rows = "5" placeholder="Your explanation..."></textarea>
+
+            <br><br>
+
+            <input type="submit" value = "Submit the form">
+
+            
+        </form>
+
+
+    </body>
+
+</html>

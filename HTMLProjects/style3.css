@@ -1,0 +1,33 @@
+html{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
+.Align{
+    text-align: center;
+    list-style-type: none;
+}
+main section h2{
+    margin: 20px;
+}
+aside h2{
+    margin: 20px;
+}
+article .Align{
+    margin: 20px;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,27 @@
+html{
+    background-color: lightgray;
+}
+.Align{
+    text-align: center;
+}
+ul.Align{
+    list-style-type: none;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+article.Style{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+article.Style-2{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+aside h2{
+    max-width: 1080px;
+}
