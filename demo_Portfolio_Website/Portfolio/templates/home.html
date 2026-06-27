@@ -1,0 +1,339 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<header class="bg-transparent">
+    <nav class="fixed-position navbar navbar-expand-lg border-bottom">
+        <div class="container-lg">
+            <i class="bi bi-person text-light">
+                <a class="navbar-brand text-light" href="{{url_for('home')}}">Your_Name</a>
+            </i>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#About-Me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Past-Work">Past Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+    <section id="Service" class="service-section">
+        <div class="container">
+            <div class="row justify-content-start align-items-center pb-4 g-1 ps-0">
+                <div class="col-md-6">
+                    <div class="card bg-transparent border-0 pe-5">
+                        <div class="card-body fw-bold py-5 text-light">
+                            <p class="card-title display-1 d-flex fw-bold text-light">Roblox scripter for hire</p>
+                            <h4 class="card-subtitle mb-2 pt-3 d-flex text-light">Hellooo, I make Roblox scripts that
+                                feel smooth
+                                and actually fun to play. Combat, anime abilities, RPG loops, datastores, UI, NPCs,
+                                movement, developer products, and full feature sets.
+                            </h4>
+                            <p class="card-text text-light"></p>
+                            <div class="d-flex flex-wrap gap-3 pt-1">
+                                <a class="border-remover border border-outline-dark hover-effect btn bg-transparent text-light btn rounded"
+                                    href="#">Message Me <small>(Your Discord)</small>
+                                </a>
+                                <a class="border-remover border border-outline-dark hover-effect btn bg-transparent text-light btn rounded" href="#Past-Work">
+                                    Past Work
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="card w-100 h-auto my-5 bg-transparent border border-1" style="width: 32rem;">
+                        <div class="card-header text-end text-light fw-bold">
+                            Featured Sample
+                        </div>
+                        <video src="/static/videos/clip1.mp4" class="object-fit-cover border-1 border border-light"
+                            type="video/mp4" autoplay controls playsinline>
+                        </video>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-stretch g-4">
+                    <div class="card bg-transparent border border-1 rounded-4" style="width: 10rem;">
+                        <div class="card-body text-start">
+                            <h3 class="card-text mb-2 text-light">50M+</h3>
+                            <p class="card-text text-light">Visits on projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-stretch g-4">
+                    <div class="card bg-transparent border border-1 rounded-4" style="width: 10rem;">
+                        <div class="card-body text-start">
+                            <h3 class="card-text mb-2 text-light">10 yrs</h3>
+                            <p class="card-text text-light">Roblox development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-stretch g-4">
+                    <div class="card bg-transparent border border-1 rounded-4" style="width: 10rem;">
+                        <div class="card-body text-start">
+                            <h3 class="card-text mb-2 text-light">2 yrs</h3>
+                            <p class="card-text text-light">Scripting focus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="About-Me" class=" border-1 border-top pb-5">
+        <div class="container">
+            <div class="row justify-content-start align-items-center pt-5">
+                <div class="col-8 col-lg-6 d-inline-block">
+                    <div class="card bg-transparent w-100 h-100 border-0">
+                        <div class="card-body text-light fw-bold py-5">
+                            <small>What I Can Make</small>
+
+                            <div class="display-4 card-text text-light fw-bold text-start pt-3">
+                                Multiple different systems and game mechanics.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-stretch pb-3 g-4 ps-3">
+                <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="card text-light bg-transparent border border-2 w-100 h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-4">01 Combat</h5>
+                            <h3 class="card-subtitle mb-2">Anime & RPG Combat</h3>
+                            <p class="card-text">Blox Fruits, Deepwoken, GPO, RL, hitboxes, cooldowns, stun, damage, and
+                                combos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="card text-light bg-transparent border border-2 w-100 h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-4">02 Progression</h5>
+                            <h3 class="card-subtitle mb-2">Game Loops</h3>
+                            <p class="card-text">
+                                Quests, leveling, coins, RNG rolls, items, developer products, rewards, and systems that
+                                keep players moving.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="card text-light bg-transparent border border-2 w-100 h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-4">03 Interface</h5>
+                            <h3 class="card-subtitle mb-2">UI Scripting</h3>
+                            <p class="card-text">
+                                Menus, health bars, loading screens, shops, interaction panels, and polished client-side
+                                behavior.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="card text-light bg-transparent border border-2 w-100 h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-4">04 World Logic</h5>
+                            <h3 class="card-subtitle mb-2">NPCs & Movement</h3>
+                            <p class="card-text">
+                                NPC logic, roleplay features, obbies, movement systems, guns, datastore support, and
+                                gameplay utilities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Past-Work" class=" border-1 border-top pb-5">
+        <div class="container-lg">
+            <div class="row justify-content-start align-items-center pt-5 pb-3">
+                <div class="col-md-6 text-light text-start">
+                    <h1 class="fw-bold text-light pt-4">
+                        My Previous Commissions/Work.
+                    </h1>
+                    <p class="small fw-bold text-light pt-1">A few stuff i made before commissions</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center g-4">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card h-100 bg-transparent border border-2" style="width: 100%; cursor: pointer;"
+                        data-bs-toggle="modal" data-bs-target="#projectModal">
+                        <video src="/static/videos/clip2.mp4" class="object-fit-cover border-2 border border-light"
+                            type="video/mp4" controls playsinline>
+                        </video>
+                        <div class="card-body bg-transparent fw-bold text-light">
+                            <i class="bi bi-fast-forward"></i> Speed Boost Pad
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card h-100 bg-transparent border border-2" style="width: 100%;">
+                        <video src="/static/videos/clip3.mp4" class="object-fit-cover border-2 border border-light"
+                            type="video/mp4" controls playsinline>
+                        </video>
+                        <div class="card-body bg-transparent fw-bold text-light">
+                            <i class="bi bi-coin"></i> Money System
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card h-100 bg-transparent border border-2" style="width: 100%;">
+                        <video src="/static/videos/clip4.mp4" class="object-fit-cover border-2 border border-light"
+                            type="video/mp4" controls playsinline>
+                        </video>
+                        <div class="card-body bg-transparent fw-bold text-light">
+                            <i class="bi bi-code-slash"></i> Showing work
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card h-100 bg-transparent border border-2" style="width: 100%;">
+                        <video src="/static/videos/clip5.mp4" class="object-fit-cover border-2 border border-light"
+                            type="video/mp4" controls playsinline>
+                        </video>
+                        <div class="card-body bg-transparent fw-bold text-light">
+                            <i class="bi bi-aspect-ratio"></i> Colour and Disapearing Blocks
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Pricing" class=" border-1 border-top pt-3 pb-5">
+        <div class="container">
+
+            <p class="text-light fw-bold pt-4">Pricing & Payment</p>
+            <h1 class="fw-bold text-light d-inline-block"> Prices Before We Start:</h1>
+            <div class="row justify-content-start align-items-start pt-3 g-4">
+                <div class="col-12 col-lg-6 d-flex">
+                    <div class="card bg-transparent border border-3 w-100">
+                        <div class="card-header border-1 border-light text-light fw-bold py-3 text-center">
+                            <h4>Small To Large Commissions</h4>
+                        </div>
+
+                        <div class="card-body ps-5">
+                            <h3 class="card-title text-light fw-bold py-3 text-start">
+                                $10-$150 <span class="fs-6">USD</span>
+                            </h3>
+                            <h6 class="card-subtitle mb-2 text-light text-start">Best for individual systems, fixes,
+                                add-ons, UI behavior, and focused gameplay features.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex">
+                    <div class="card bg-transparent w-100 border border-3">
+                        <div class="card-header border-1 border-light text-light fw-bold py-3 text-center">
+                            <h4>Dedicated long-term work</h4>
+                        </div>
+
+                        <div class="card-body ps-5">
+                            <h3 class="card-title text-light fw-bold py-3 text-start">
+                                $800-$1,200 <span class="fs-6">USD</span>
+                            </h3>
+                            <h6 class="card-subtitle mb-2 text-light text-start">Best when you need consistent scripting
+                                attention across a larger Roblox project.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center pt-3 g-4">
+                <div class="col-12 col-lg-6 d-flex">
+                    <div class="card bg-transparent w-100 border border-3">
+                        <div class="card-header border-1 border-light text-light fw-bold py-3 text-center">
+                            <h4>Accepted methods</h4>
+                        </div>
+                        <ul class="list-group list-group-flush text-start">
+                            <li class="list-group-item text-light fw-bold bg-transparent px-5 py-3"><span
+                                    class="text-start border border-2 border-light rounded bg-success px-2 py-1"><small>Ok</small></span>
+                                USDT
+                                / Tether on Ethereum</li>
+                            <li class="list-group-item text-light fw-bold bg-transparent px-5 py-3"><span
+                                    class="text-start border border-2 border-light rounded bg-success px-2 py-1"><small>Ok</small></span>
+                                Robux
+                            </li>
+                            <li class="list-group-item text-light fw-bold bg-transparent px-5 py-3"><span
+                                    class="text-start border border-2 border-light rounded bg-danger px-2 py-1"><small>No</small></span>
+                                USDC
+                                on Base
+                            </li>
+                            <li class="list-group-item text-light fw-bold bg-transparent px-5 py-3"><span
+                                    class="text-start border border-2 border-light rounded bg-success px-2 py-1"><small>Ok</small></span>
+                                PayPal friends and family
+                            </li>
+                            <li class="list-group-item text-light fw-bold bg-transparent px-5 py-3"><span
+                                    class="text-start border border-2 border-light rounded bg-success px-2 py-1"><small>Ok</small></span>
+                                Percentage for 600 CCU+ games
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <section id="Contact" class=" pt-4 border-top border-1">
+        <div class="container">
+            <div class="row justify-content-start align-items-center">
+                <div class="col-8 col-lg-6 d-flex">
+                    <div class="card w-100 h-100 border-0 bg-transparent">
+                        <div class="card-body text-light fw-bold py-5 text-start">
+                            <small>WANT TO HIRE ME?</small>
+
+                            <div class="display-5  card-text text-light fw-bold text-start pt-3">
+                                Send me your game info and budget.
+                            </div>
+
+                            <div class="card-text  text-light fw-bold text-start pt-4">
+                                Do not just say "hey", "hi", or "yo". Get straight to the point.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 d-flex text-end ps-5 py-auto">
+                    <a class="border-remover border border-outline-dark hover-effect btn bg-transparent text-light btn-lg rounded-pill"
+                        href="#">Message Me <small>(Your Discord)</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-transparent pt-3 pb-1 text-light text-center">
+        <p>Your-Name ~ Roblox Scripter ~ Hungary</p>
+    </div>
+</footer>
+{% endblock %}
