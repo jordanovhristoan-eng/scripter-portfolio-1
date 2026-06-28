@@ -34,3 +34,12 @@
     transform: translateY(-1px);
     opacity: 0.9;
 }
+
+.navbar-toggler {
+    background: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
