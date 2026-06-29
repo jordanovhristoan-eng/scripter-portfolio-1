@@ -26,6 +26,15 @@
     object-fit: contain !important;
 }
 
+.project-video {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-video:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
 @media (max-width: 991.98px) {
 
     .featured-sample-video-wrapper,
@@ -90,6 +99,15 @@
     opacity: 0.9;
 }
 
+.card-hover {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
 .navbar-toggler {
     background: transparent;
     border: none;
@@ -97,4 +115,22 @@
 
 .navbar-toggler-icon {
     filter: invert(1);
+}
+
+.nav-link {
+    transition: transform 0.4s ease, 0.4s ease;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    transform: translateY(-4px);
+}
+
+.nav-link {
+    transition: transform 0.4s ease, 0.4s ease;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    transform: translateY(-4px);
 }
