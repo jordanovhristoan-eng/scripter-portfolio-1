@@ -3,9 +3,64 @@
 }
 
 .service-section {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
+}
+
+.service-section .display-1 {
+    font-size: 5.4em;
+}
+
+.featured-sample-video-wrapper {
+    width: 100%;
+    max-width: 75rem;
+}
+
+.featured-sample-video {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 70vh !important;
+    object-fit: contain !important;
+}
+
+@media (max-width: 991.98px) {
+
+    .featured-sample-video-wrapper,
+    .service-section .col-12.col-md-7,
+    .service-section .col-12.col-lg-4 {
+        display: none !important;
+    }
+
+    .service-section .row {
+        justify-content: center !important;
+    }
+
+    .service-section .card-body {
+        text-align: center !important;
+    }
+
+    .service-section .d-flex.flex-wrap {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .service-section .card-body {
+        text-align: center !important;
+    }
+
+    .service-section .card-title.d-flex,
+    .service-section .card-subtitle.d-flex {
+        justify-content: center !important;
+        width: 100%;
+    }
+
+    .service-section .d-flex.flex-wrap {
+        justify-content: center !important;
+    }
 }
 
 .hover-effect {
